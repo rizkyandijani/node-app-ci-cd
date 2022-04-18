@@ -1,6 +1,6 @@
 {
   "name": "node-app-ci-cd",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "a practice repo for ci/cd implementation",
   "main": "index.js",
   "dependencies": {
