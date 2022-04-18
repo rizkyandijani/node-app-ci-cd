@@ -13,3 +13,6 @@ My notes for this project:
 9. when adding execute shell option, don't forget to grant executeable permission in cloud server for the script '$ chmod +x script/test', this step also needed for the deployment script
 10. add '--exit' in your test script to exit the script once test complete or your build will last forever.
 11. when adding the pm2 in your deployment script, write the exact pm2 installation path in the script or your pm2 module will not be found by the script.
+
+last but not least, hopefully this note and practice will help you and me to understand more about CI/CD. cheers! 
+
