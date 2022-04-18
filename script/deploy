@@ -2,8 +2,11 @@
 
 ssh andijani@178.128.53.245 <<EOF
  cd ~/node-app-ci-cd
+ echo $PATH
  git pull
+ npm --version
  npm install --production
+ pm2 --version
  pm2 restart all
  exit
 EOF
