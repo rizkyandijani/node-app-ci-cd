@@ -6,7 +6,7 @@ ssh andijani@178.128.53.245 <<EOF
  git pull
  npm --version
  npm install --production
- pm2 --version
- pm2 restart all
+ /home/andijani/.nvm/versions/node/v17.9.0/bin/pm2 --version
+ /home/andijani/.nvm/versions/node/v17.9.0/bin/pm2 restart all
  exit
 EOF
