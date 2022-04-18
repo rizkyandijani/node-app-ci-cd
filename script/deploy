@@ -1,6 +1,6 @@
-#!/bin/shssh 
+#!/bin/sh
 
-andijani@178.128.53.245 <<EOF
+ssh andijani@178.128.53.245 <<EOF
  cd ~/node-app-ci-cd
  git pull
  npm install — production
